@@ -1,0 +1,7 @@
+- name: Print Target Clusters Var
+  hosts: all
+  tasks:
+    - name: Target Clusters
+      debug:
+        msg: the list of target clusters are {{ target_clusters }}
+
